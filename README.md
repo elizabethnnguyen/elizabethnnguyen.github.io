@@ -1,5 +1,5 @@
 
-# My Name
+# Elizabeth Nguyen
 
 ### Welcome to my portfolio! Nothing special here. 
 
