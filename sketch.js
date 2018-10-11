@@ -5,7 +5,6 @@ function setup() {
 
 }
 
-
 function draw() {
   console.log("in draw");
 
