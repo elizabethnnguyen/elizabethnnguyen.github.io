@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>DEMO</title>
+    <!-- link to css -->
+    <link rel="stylesheet" type="text/css" href="main.css"></link>
   </head>
   <body>
-<h1>Pizza</h1>
-<h2>Pizza</h2>
-<h3>Pizza</h3>
-<h4>Pizza</h4>
-<h5>Pizza</h5>
-<h6>Pizza</h6>
+<h1 id="heading">PIZZA</h1>
+<h2>PIZZA</h2>
+<h3>PIZZA</h3>
+<h4>PIZZA</h4>
+<h5>PIZZA</h5>
+<h6>PIZZA</h6>
 
 
 <!-- can also have image be a link: make sure that you copy the entire img tag in between the carrot brackets -->
@@ -27,18 +29,27 @@
 <!-- <img src="../assets/staticBG.jpg" alt=""> this is another way adding images in because sometimes the link of your actual image can break. So climbing the tree for an image would be more beneficial.  -->
 <!-- img tag is weird because there is an opening for the tag but theres not closing tag. You have to self close the tag yourself. </img> -->
 
-<p><a href="page2.html">Click here for more pizza </a> <br>I'm hungry. I want pizza.
-I like tea but I hate coffee. <br>Pasta sounds really good right now, too. What should I eat for lunch? I want curry. </p>
+<div class="black-div">
+  <p class="big-text"><a href="page2.html">Click here for more pizza </a> <br>I'm hungry. I want pizza.
+  I like tea but I hate coffee. <br>Pasta sounds really good right now, too. What should I eat for lunch? I want curry. </p>
+</div>
 
-<ol>
-  <li>Pesto Pizza</li>
-  <li>Pepperoni Pizza</li>
-  <li>Cheese Pizza</li>
-</ol>
+
+
+
+<div class="black-div">
+  <ol>
+    <li>Pesto Pizza</li>
+    <li>Pepperoni Pizza</li>
+    <li>Cheese Pizza</li>
+  </ol>
+</div>
+
+
 
 <br>
 <br>
-<p><a href="../index.html" target="_blank">Go back home</a></p>
+<p class="home-link"><a href="../index.html" target="_blank">Go back home</a></p>
 
 <!-- target="_blank" allows you to open in new tab -->
 <!-- go up from the tree means to direct us from outside of hte folder and look for an index.html outside of the folder; key is: ../ -->

@@ -27,10 +27,12 @@ h2{
   font-size: 20pt;
   font-family: "Impact";
   letter-spacing: 0px;
-  line-height: 0.5;
+  line-height: 0;
 }
 
-#p2 {
+.text{
+  padding: 15px 78px;
+  margin: auto 100px;
   text-align: left;
-  line-height: 15;
+  line-height: normal;
 }
