@@ -1,12 +1,26 @@
+h1 {
+  font-size: 60pt;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  line-height: 1;
+  font-family: "Arial Narrow";
+  letter-spacing: -3.5px;
+}
+
+
 body {
   margin: 30px auto;
   max-width: 1000px;
   font-family: "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
-  padding: 30px 20px;
+  line-height: 0.3;
+  padding: 0px 20px;
   text-align: center;
 }
 
-h1 {
-  font-size: 50pt;
+
+div {
+}
+
+h2{
+  font-size: 15pt;
 }
