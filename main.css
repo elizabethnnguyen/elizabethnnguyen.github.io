@@ -7,7 +7,6 @@ h1 {
   letter-spacing: -3.5px;
 }
 
-
 body {
   margin: 30px auto;
   max-width: 1000px;
@@ -16,7 +15,6 @@ body {
   padding: 0px 20px;
   text-align: center;
 }
-
 
 .portfolio-item{
 padding-top: 50px;
@@ -29,7 +27,7 @@ h2{
   font-size: 20pt;
   font-family: "Impact";
   letter-spacing: 0px;
-  text-align:
+  line-height: 0.5;
 }
 
 #p1 {
