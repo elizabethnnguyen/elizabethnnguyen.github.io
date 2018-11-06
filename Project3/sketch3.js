@@ -9,9 +9,11 @@ let documentActive = false; // we need to make sure they engage with page before
 
 
 function setup() {
+  noCanvas();
   // dophin vid 1!
   vid_0 = createVideo(['assets/UNBOXINGBOXES.mp4', 'UNBOXINGBOXES.webmhd.webm']);;
-  vid_0.size(600,700);
+  vid_0.size(600,350);
+vid_0.parent("#videoDiv");
 
   vid_0.mouseOver(playVid_0);
   vid_0.mouseOut(pauseVid_0);
