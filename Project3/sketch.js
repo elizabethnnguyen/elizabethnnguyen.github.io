@@ -11,14 +11,14 @@ let documentActive = false; // we need to make sure they engage with page before
 function setup() {
   // dophin vid 1!
   vid_0 = createVideo(['assets/ASMR.mp4', 'ASMR.webmhd.webm']);;
-  vid_0.size(700, 800);
+  vid_0.size(600,700);
 
   vid_0.mouseOver(playVid_0);
   vid_0.mouseOut(pauseVid_0);
 }
 
-function draw() {}
 
+function draw() {}
 function playVid_0() {
   if (documentActive) {
     vid_0.loop();
@@ -29,18 +29,6 @@ function playVid_0() {
 function pauseVid_0() {
   vid_0.pause();
   vid_0_playing = false;
-}
-
-function playVid_1() {
-  if (documentActive) {
-    vid_1.loop();
-    vid_1_playing = true;
-  }
-}
-
-function pauseVid_1() {
-  vid_1.pause();
-  vid_1_playing = false;
 }
 
 function mousePressed() {
