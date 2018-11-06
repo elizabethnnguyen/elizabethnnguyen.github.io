@@ -1,0 +1,10 @@
+
+
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+  color: #161616;
+  background-image: radial-gradient(circle, #f7f7f7, #d4d6d1);
+  max-width: 1000px;
+  margin: 10px auto;
+}
