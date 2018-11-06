@@ -1,6 +1,6 @@
 body {
-  font-family: "Lucida Console", Monaco, monospace;
-  font-size: 18px;
+  font-family: "Arial Narrow";
+  font-size: 25px;
   color: black;
   background-color: white;
 }
@@ -10,8 +10,7 @@ margin-top: 60px;
   margin-left: 97px;
 }
 
-p{
-  margin-left: 97px;
-  margin-bottom: -50px;
-  padding-bottom: 0px;
+.productdescription{
+margin-left: 800px;
+margin-bottom: -150px;
 }

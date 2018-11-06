@@ -10,7 +10,7 @@ let documentActive = false; // we need to make sure they engage with page before
 
 function setup() {
   // dophin vid 1!
-  vid_0 = createVideo(['assets/ASMR.mp4', 'ASMR.webmhd.webm']);;
+  vid_0 = createVideo(['assets/CATS.mp4', 'CATS.webmhd.webm']);;
   vid_0.size(600,700);
 
   vid_0.mouseOver(playVid_0);
@@ -19,7 +19,6 @@ function setup() {
 
 
 function draw() {
-  margin(50);
 }
 
 function playVid_0() {
