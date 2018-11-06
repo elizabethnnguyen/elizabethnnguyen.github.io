@@ -19,7 +19,6 @@ function setup() {
 
 
 function draw() {
-  margin(50);
 }
 
 function playVid_0() {
