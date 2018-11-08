@@ -10,6 +10,7 @@ h1 {
   margin-top: 40px;
   margin-bottom: 50px;
   font-size: 50px;
+  text-decoration: overline;
 }
 
 #videoDiv {
@@ -19,10 +20,14 @@ h1 {
 h2 {
   display: inline;
   font-size: 20px;
+  color: white;
 }
 
 .tabs {
   text-align: center;
+  background-color: black;
+  padding: 5px;
+
 }
 
 .links{
@@ -51,4 +56,10 @@ h4{
 
 h3{
   font-size: 30px;
+}
+
+.buy{
+  border: 3px solid;
+  margin-right: 151px;
+  font-size: 20px;
 }
