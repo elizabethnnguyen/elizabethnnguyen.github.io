@@ -4,6 +4,7 @@ body {
   background-color: white;
   width: 65%;
   margin: auto;
+
 }
 
 h1 {
@@ -31,14 +32,27 @@ h2 {
 
 }
 
-.links{
+
+.links {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  line-height: 20px;
+
+}
+
+.links a{
+  font-weight: bold;
+  margin-left: 7px;
 }
 
 .images{
   text-align: center;
 }
+
+
+
 
 .container{
   margin-top: 50px;
@@ -49,6 +63,7 @@ h2 {
   font-size: 17.5px;
   text-align: justify;
   line-height: 20px;
+  margin-bottom: -10px;
 }
 
 h4{
