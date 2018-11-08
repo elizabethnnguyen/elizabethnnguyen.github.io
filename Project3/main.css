@@ -8,9 +8,10 @@ body {
 
 h1 {
   margin-top: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   font-size: 50px;
   text-decoration: overline;
+  font-weight: bold;
 }
 
 #videoDiv {
@@ -47,6 +48,7 @@ h2 {
 .col{
   font-size: 17.5px;
   text-align: justify;
+  line-height: 20px;
 }
 
 h4{
@@ -56,10 +58,12 @@ h4{
 
 h3{
   font-size: 30px;
+  font-weight: bold;
 }
 
 .buy{
-  border: 3px solid;
-  margin-right: 151px;
+  /* border: 3px solid;
+  margin-right: 150px; */
   font-size: 20px;
+  font-weight: bold;
 }
