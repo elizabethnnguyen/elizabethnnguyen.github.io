@@ -1,36 +1,31 @@
 body {
-  font-family: "Arial Narrow";
-  color: black;
+  font-family: sans-serif "arial";
+  color: #997300;
   background-color: white;
 }
 
 .contents {
   margin: auto;
   width: 70%;
-
 }
-
-
-
 
 h1 {
   /* margin-bottom: 35px; */
   font-size: 30px;
   text-decoration: overline;
   font-weight: bold;
-  background-color: black;
-  color: white;
+  color: #997300;
   width: auto;
   display: inline;
+  font-family: "arial narrow"
 }
 
 .navbar{
 display: inline;
-
 }
 
 h2{
-  color: white;
+  color: #997300;
   font-size: 15px;
   padding-left: 30px;
   padding-right: 30px;
@@ -40,11 +35,10 @@ h2{
 
 .header{
   width: auto;
-  background-color: black;
+  background-color: #e6e6e6;
   padding-top: 12px;
   padding-left: 10px;
   margin-bottom: 80px;
-
 }
 
 
@@ -87,23 +81,47 @@ margin-bottom: 30px;
   margin-left: -10px;
 }
 
+a.class1{
+  color:white;
+}
 
+a.class1:hover{
+  color:white;
+}
+
+
+a{
+  color: #997300;
+}
+
+a:hover{
+  color: #997300;
+}
 
 h4{
   font-size: 20px;
   text-decoration: underline;
-  border-top: 2px solid;
-  padding-top: 10px;
+  border-top: 1px solid #997300;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
+.panel-heading2{
+  border-bottom: 1px solid #997300;
+
+}
+
 
 h3{
   font-size: 30px;
-  font-weight: bold;
 }
 
 .buy{
-  /* border: 3px solid;
-  margin-right: 150px; */
   font-size: 20px;
-  font-weight: bold;
+  /* margin-left: 120px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 115px;
+  border: 2px solid #997300;
+  background-color: #997300;
 }
