@@ -4,6 +4,10 @@
 <head>
 
   <head>
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <meta charset="utf-8">
     <title>Watch It!</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,15 +23,28 @@
 
 
 <body>
+
+<div class="header">
   <h1>WATCH IT!</h1>
-
-  <div class="tabs">
-    <h2 style="margin-right:150px">Home</h2>
-    <h2 style="margin-right:80px">About</h2>
-    <h2 style="margin-left:80px">Your Account</h2>
-    <h2 style="margin-left:150px">Sale</h2>
+  <div class="navbar">
+      <h2 style="display:inline">Home</h2>
+      <h2 style="display:inline">Shop</h2>
+      <h2 style="display:inline">About</h2>
+      <h2 style="display:inline">FAQ</h2>
+      <h2 style="display:inline">Contact</h2>
   </div>
+</div>
 
+
+
+<div class="contents">
+
+<div class="map">
+  <a href="#">Home</a><p>/</p><a href="#">Shop</a><p>/</p><a href="#">ASMR</a>
+  <div class="prevnext">
+  <a href="#">Prev</a><p>|</p><a href="#">Next</a>
+  </div>
+</div>
 
   <div class="container">
     <div class="row">
@@ -37,52 +54,59 @@
 
       <div class="col">
         <h3>ASMR</h3>
-        <h4>About the product:</h4>
-          <p>ASMR offers content that can make you feel relaxed, uncomfortable, or simply distract you from all of your responsibilities. Spend your watch-time listening to a variety of individuals softly whisper, scratch, or crunch in front of a microphone.</p>
+        <h5>SKU:</h5>
           <p>Price: 21.99 hours of watch-time</p>
           <p class="buy"><a href="https://www.youtube.com">BUY NOW!</a></p>
+
+<!-- <h4>About the product:</h4> -->
+
+
+
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Product Info</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body">ASMR offers content that can make you feel relaxed, uncomfortable, or simply distract you from all of your responsibilities. Spend your watch-time listening to a variety of individuals softly whisper, scratch, or crunch in front of a microphone.
+</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Return & Refund Policy</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
       </div>
 
     </div>
   </div>
 
 
+
   <div id="videoDiv">
   </div>
   <p class="directions">(Mouseover: Click outside to initiate)</p>
-
-
-  <!-- <div class="img-zoom-container">
-    <img id="myimage" src="img_girl.jpg" width="300" height="240" alt="Girl">
-    <div id="myresult" class="img-zoom-result"></div>
-  </div> -->
-
-<div class="images">
-
-
-<img src="assets/asmr_01.jpg" alt="McD" width="150" style="margin-right:20px"></img>
-  <img src="assets/asmr_02.jpg" alt="sequins" width="150" style="margin-right:20px"></img>
-  <img src="assets/asmr_03.jpg" alt="tiktik" width="150" style="margin-right:20px"></img>
-</div>
-
-
-
-<div class="links">
-    <p>Pages:
-    <a href="index.html" style="text-decoration: underline">1</a>
-    <a href="index2.html">2</a>
-    <a href="index3.html">..Last</a>
-  </p>
-</div>
-
-
-
-<script>
-imageZoom("asmr1", "myresult");
-</script>
-
-
-
 
 
 </body>
