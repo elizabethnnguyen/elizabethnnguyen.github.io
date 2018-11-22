@@ -182,6 +182,10 @@ margin: auto;
 /* ________________________________________________________________________________________________________ */
 
 
+#prodcutdescription {
+  display: block;
+}
+
 .descriptreview{
   margin-top: 100px;
 }
