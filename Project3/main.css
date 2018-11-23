@@ -160,6 +160,10 @@ h5{
   text-decoration: underline;
 }
 
+h6{
+  font-size: 12px;
+  color: #ae966c;
+}
 
 /* <!-- ____________________________________________________________________________________________________ --> */
 
@@ -190,7 +194,7 @@ h5{
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #997300;
+    background-color: #e6e6e6;
 }
 
 /* Style the tab content */
