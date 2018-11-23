@@ -215,3 +215,40 @@ h6{
 .descriptreview{
   margin-top: 100px;
 }
+
+/* <!-- ___________________________________________________________________________________________________________________ --> */
+/* <!-- ___________________________________________________________________________________________________________________ --> */
+
+.middlehome{
+  background-color: white;
+  width: 80%;
+}
+
+.backgroundimage{
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* position: relative; */
+
+}
+
+.headerhome{
+  width: auto;
+  background-color: #e6e6e6;
+  padding-top: 12px;
+  padding-left: 10px;
+}
+
+.footerhome{
+  background-color: #e6e6e6;
+padding: 145px;
+margin: auto;
+}
+
+.texthome{
+position: absolute;
+bottom: 60%;
+right: 45%;
+font-size: 40px;
+font-weight: bold;
+}
