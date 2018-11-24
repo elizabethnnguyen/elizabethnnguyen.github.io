@@ -428,3 +428,30 @@ h6 {
   font-size: 20px;
   font-weight: lighter;
 }
+
+.about{
+  text-align: center;
+  margin-bottom: 15%;
+  margin-top: 10%;
+}
+
+.me{
+  display: inline;
+  margin-left: 20%;
+}
+
+.aboutme{
+position: relative;
+float: right;
+margin-top: 5%;
+margin-right: 25%;
+width: 30%
+}
+
+#titleme{
+  font-size: 50px;
+}
+
+#subme{
+  font-size: 25px;
+}
