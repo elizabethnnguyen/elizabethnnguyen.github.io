@@ -6,12 +6,12 @@ body {
 
 .contents {
   margin: auto;
-  width: 70%;
+  width: 90%;
 }
 
 h1 {
   /* margin-bottom: 35px; */
-  font-size: 30px;
+  font-size: 35px;
   text-decoration: overline;
   font-weight: bold;
   color: #997300;
@@ -27,9 +27,9 @@ h1 {
 
 h2 {
   color: #997300;
-  font-size: 12px;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-size: 17px;
+  padding-left: 60px;
+  padding-right: 55px;
   position: relative;
   bottom: 10px;
   font-family: sans-serif "helvetica";
@@ -42,21 +42,29 @@ h2 {
   padding-top: 12px;
   padding-left: 10px;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 150px;
   margin-bottom: 8%;
+}
+
+.map{
+  margin-left: 27.3%;
 }
 
 .map a {
   padding: 5px;
+  font-size: 20px;
 }
 
 .map p {
   display: inline;
+  font-size: 20px;
+
 }
 
 .prevnext {
   display: inline;
   float: right;
+  margin-right: 36.3%;
 }
 
 #videoDiv {
@@ -65,9 +73,10 @@ h2 {
 
 .directions {
   line-height: 1px;
-  margin-left: 5px;
+  margin-left: 27.3%;
   margin-bottom: 30px;
   color: #cc9766;
+  font-size: 18px;
 }
 
 .container {
@@ -76,11 +85,12 @@ h2 {
 }
 
 .col {
-  font-size: 17.5px;
+  font-size: 18px;
   text-align: justify;
-  line-height: 20px;
-  margin-bottom: -30px;
-  margin-left: -10px;
+  line-height: 23px;
+  margin-bottom: -40px;
+  margin-left: 20px;
+  position: relative;
 }
 
 a.class1 {
@@ -100,11 +110,15 @@ a:hover {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: underline;
   border-top: 1px solid #997300;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.panelbody{
+  font-size: 20px;
 }
 
 .panel-heading2 {
@@ -112,7 +126,8 @@ h4 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 35px;
+  margin-top: 20px;
 }
 
 .buy {
@@ -131,18 +146,19 @@ h3 {
 
 .footer {
   background-color: #e6e6e6;
-  padding: 130px;
+  padding: 145px;
   margin: auto;
+  font-size: 18px;
 }
 
 .firstcol {
-  margin-left: 10%;
+  margin-left: 15%;
   margin-top: -70px;
 }
 
 .secondcol {
-  margin-left: 40%;
-  margin-top: -158px;
+  margin-left: 43%;
+  margin-top: -165px;
 }
 
 .thirdcol {
@@ -157,7 +173,7 @@ h5 {
 }
 
 h6 {
-  font-size: 12px;
+  font-size: 16px;
   color: #ae966c;
 }
 
@@ -180,6 +196,7 @@ h6 {
   padding: 14px 16px;
   transition: 0.3s;
   color: #997300;
+  font-size: 22px;
 }
 
 /* Change background color of buttons on hover */
@@ -197,6 +214,7 @@ h6 {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
+  font-size: 20px;
   /* border-top: none; */
 }
 
@@ -207,6 +225,8 @@ h6 {
 
 .descriptreview {
   margin-top: 100px;
+margin-left: 27%;
+margin-right: 26%;
 }
 
 /* <!-- ___________________________________________________________________________________________________________________ --> */
@@ -216,7 +236,7 @@ h6 {
 }
 
 .backgroundimage {
-  margin-left: 21%;
+  margin-left: 25%;
   margin-top: 10%;
   margin-bottom: 10%;
   /* position: relative; */
@@ -228,19 +248,21 @@ h6 {
   padding-top: 12px;
   padding-left: 10px;
   text-align: center;
-  margin-top: 90px;
+  margin-top: 150px;
 }
 
 .footerhome {
   background-color: #e6e6e6;
   padding: 145px;
   margin: auto;
+  font-size: 18px;
+
 }
 
 .texthome {
   position: absolute;
   bottom: 20%;
-  right: 34%;
+  right: 48%;
   font-size: 50px;
   font-weight: bold;
   letter-spacing: 5px;
@@ -274,25 +296,25 @@ h6 {
 .faveone {
   display: inline;
   float: left;
-  margin-left: 16.8%;
+  margin-left: 19%;
 }
 
 .onetext {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 5px;
   position: relative;
   float: right;
-  margin-right: 150px;
-  margin-top: 100px;
+  margin-right: 50px;
+  margin-top: 145px;
   width: 30%;
   padding-right: 100px;
 }
 
 .catdescript {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
-  line-height: 20px;
+  line-height: 24px;
   letter-spacing: 3px;
 }
 
@@ -310,26 +332,26 @@ h6 {
 
 .favetwo {
   position: relative;
-  margin-right: 14%;
-  padding-left: 10px;
+  margin-right: 10%
 }
 
 .twotext {
   display: inline;
   float: left;
-  margin-left: 27%;
-  margin-top: 100px;
-  padding-right: 120px;
-  font-size: 25px;
+  margin-left: 25%;
+  padding-left: 30px;
+  padding-right: 100px;
+  margin-top: 145px;
+  font-size: 30px;
   font-weight: bold;
   letter-spacing: 5px;
   width: 30%
 }
 
 .unboxdescript {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: lighter;
-  line-height: 20px;
+  line-height: 24px;
   letter-spacing: 3px;
 }
 
@@ -346,5 +368,67 @@ h6 {
 }
 
 .favorites {
+  margin-bottom: 20%;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 7%;
+  padding: 5px;
+  margin-left: 17%;
+  margin-bottom: 10px;
+}
+
+/* Clear floats after image containers */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column2 {
+  float: left;
+  width: 7%;
+  padding-left: 10px;
+  margin-left: 17%;
   margin-bottom: 10%;
+  line-height: 10px;
+}
+
+/* Clear floats after image containers */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#title1{
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+#title2{
+  font-size: 16px;
+}
+
+
+.maintitle{
+  text-align: center;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+#main{
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  line-height: 50px;
+}
+
+#submain{
+  font-size: 20px;
+  font-weight: lighter;
 }

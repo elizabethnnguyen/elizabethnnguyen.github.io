@@ -12,7 +12,7 @@ function setup() {
   noCanvas();
   // dophin vid 1!
   vid_0 = createVideo(['assets/UNBOXINGBOXES.mp4', 'UNBOXINGBOXES.webmhd.webm']);;
-  vid_0.size(600,350);
+  vid_0.size(650,400);
 vid_0.parent("#videoDiv");
 
   vid_0.mouseOver(playVid_0);
