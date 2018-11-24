@@ -140,7 +140,7 @@ h3 {
 }
 
 .themiddle {
-  margin-bottom: 250px;
+  margin-bottom: 100px;
 }
 
 .footer {
@@ -220,13 +220,49 @@ h6 {
 /* ________________________________________________________________________________________________________ */
 #prodcutdescription {
   display: block;
+  padding-left: 70px;
+padding-top: 50px;
+padding-bottom: 30px;
+padding-right: 70px;
+letter-spacing: 1px;
+}
+
+#descriptitle{
+  letter-spacing: 4px;
+  padding-bottom: 20px;
 }
 
 .descriptreview {
   margin-top: 100px;
-  margin-left: 20%;
-  margin-right: 19%;
+  margin-left: 19%;
+  margin-right: 18%;
 }
+
+/* #reviewstitle{
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 7px;
+  text-decoration: underline;
+  font-family: sans-serif "helvetica";
+} */
+
+#name{
+  font-weight: bold;
+}
+
+#Reviews{
+  padding-left: 70px;
+padding-top: 70px;
+padding-bottom: 60px;
+padding-right: 70px;
+}
+
+.checked {
+    color: orange;
+}
+
+
+
 
 /* <!-- ___________________________________________________________________________________________________________________ --> */
 /* <!-- ___________________________________________________________________________________________________________________ --> */
