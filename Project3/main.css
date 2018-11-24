@@ -46,7 +46,7 @@ h2 {
   margin-bottom: 8%;
 }
 
-.map{
+.map {
   margin-left: 18%;
 }
 
@@ -58,7 +58,6 @@ h2 {
 .map p {
   display: inline;
   font-size: 20px;
-
 }
 
 .prevnext {
@@ -117,7 +116,7 @@ h4 {
   padding-bottom: 20px;
 }
 
-.panelbody{
+.panelbody {
   font-size: 20px;
 }
 
@@ -225,8 +224,8 @@ h6 {
 
 .descriptreview {
   margin-top: 100px;
-margin-left: 20%;
-margin-right: 19%;
+  margin-left: 20%;
+  margin-right: 19%;
 }
 
 /* <!-- ___________________________________________________________________________________________________________________ --> */
@@ -256,7 +255,6 @@ margin-right: 19%;
   padding: 145px;
   margin: auto;
   font-size: 18px;
-
 }
 
 .texthome {
@@ -371,7 +369,6 @@ margin-right: 19%;
   margin-bottom: 20%;
 }
 
-
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
@@ -404,31 +401,30 @@ margin-right: 19%;
   display: table;
 }
 
-#title1{
+#title1 {
   font-family: sans-serif;
   letter-spacing: 2px;
   font-size: 18px;
 }
 
-#title2{
+#title2 {
   font-size: 16px;
 }
 
-
-.maintitle{
+.maintitle {
   text-align: center;
   margin-bottom: 10%;
   margin-top: 10%;
 }
 
-#main{
+#main {
   font-size: 50px;
   font-weight: bold;
   letter-spacing: 5px;
   line-height: 50px;
 }
 
-#submain{
+#submain {
   font-size: 20px;
   font-weight: lighter;
 }
