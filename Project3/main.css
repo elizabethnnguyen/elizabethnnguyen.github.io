@@ -455,3 +455,22 @@ width: 30%
 #subme{
   font-size: 25px;
 }
+
+
+.faq{
+text-align: center;
+margin-bottom: 15%;
+margin-top: 10%;
+}
+
+.faqtitle{
+  font-size: 50px;
+  letter-spacing: 5px;
+margin-bottom: 50px;
+}
+
+.faqsubtitle{
+  font-size: 30px;
+  letter-spacing: 5px;
+margin-bottom: 100px;
+}
