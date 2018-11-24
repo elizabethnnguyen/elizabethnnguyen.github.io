@@ -47,7 +47,7 @@ h2 {
 }
 
 .map{
-  margin-left: 27.3%;
+  margin-left: 18%;
 }
 
 .map a {
@@ -64,7 +64,7 @@ h2 {
 .prevnext {
   display: inline;
   float: right;
-  margin-right: 36.3%;
+  margin-right: 20%;
 }
 
 #videoDiv {
@@ -73,7 +73,7 @@ h2 {
 
 .directions {
   line-height: 1px;
-  margin-left: 27.3%;
+  margin-left: 19%;
   margin-bottom: 30px;
   color: #cc9766;
   font-size: 18px;
@@ -225,8 +225,8 @@ h6 {
 
 .descriptreview {
   margin-top: 100px;
-margin-left: 27%;
-margin-right: 26%;
+margin-left: 20%;
+margin-right: 19%;
 }
 
 /* <!-- ___________________________________________________________________________________________________________________ --> */
@@ -296,7 +296,7 @@ margin-right: 26%;
 .faveone {
   display: inline;
   float: left;
-  margin-left: 19%;
+  margin-left: 18%;
 }
 
 .onetext {
@@ -375,9 +375,9 @@ margin-right: 26%;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 7%;
+  width: 12%;
   padding: 5px;
-  margin-left: 17%;
+  margin-left: 14%;
   margin-bottom: 10px;
 }
 
@@ -390,9 +390,9 @@ margin-right: 26%;
 
 .column2 {
   float: left;
-  width: 7%;
+  width: 12%;
   padding-left: 10px;
-  margin-left: 17%;
+  margin-left: 14%;
   margin-bottom: 10%;
   line-height: 10px;
 }
