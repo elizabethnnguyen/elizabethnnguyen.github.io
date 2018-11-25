@@ -467,15 +467,17 @@ padding-right: 70px;
 
 .about{
   text-align: center;
-  margin-bottom: 90%;
+  margin-bottom: 75%;
   margin-top: 10%;
+  margin-right: 3%;
 }
 
 .me{
   position: relative;
   margin-left: 15%;
-  margin-top: 12%;
+  margin-top: 5%;
   float: left;
+
 }
 
 .aboutme{
@@ -483,7 +485,7 @@ padding-right: 70px;
 position: relative;
 float: right;
 margin-right: 15%;
-width: 30%
+width: 40%;
 }
 
 #titleme{
