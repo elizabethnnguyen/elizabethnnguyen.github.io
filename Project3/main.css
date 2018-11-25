@@ -540,6 +540,11 @@ margin-bottom: 100px;
 }
 
 
+.thankyou{
+  padding-top: 20px;
+}
+
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
