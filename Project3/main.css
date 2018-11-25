@@ -467,31 +467,38 @@ padding-right: 70px;
 
 .about{
   text-align: center;
-  margin-bottom: 15%;
+  margin-bottom: 90%;
   margin-top: 10%;
 }
 
 .me{
-  display: inline;
-  margin-left: 20%;
+  position: relative;
+  margin-left: 15%;
+  margin-top: 12%;
+  float: left;
 }
 
 .aboutme{
+  display: inline;
 position: relative;
 float: right;
-margin-top: 5%;
-margin-right: 25%;
+margin-right: 15%;
 width: 30%
 }
 
 #titleme{
   font-size: 50px;
   font-weight: bold;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
+  line-height: 50px;
+  padding-bottom: 10px;
 }
 
 #subme{
   font-size: 25px;
+  letter-spacing: 1px;
+  text-align: justify;
+  font-family: sans-serif "helvetica";
 }
 
 
