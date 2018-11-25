@@ -272,7 +272,7 @@ padding-right: 70px;
 
 .backgroundimage {
   margin-left: 25%;
-  margin-top: 10%;
+  margin-top: 7%;
   margin-bottom: 10%;
   /* position: relative; */
 }
@@ -295,7 +295,7 @@ padding-right: 70px;
 
 .texthome {
   position: absolute;
-  bottom: 20%;
+  bottom: 13%;
   right: 48%;
   font-size: 50px;
   font-weight: bold;
@@ -324,7 +324,7 @@ padding-right: 70px;
   font-weight: bold;
   letter-spacing: 5px;
   line-height: 50px;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .faveone {
@@ -402,7 +402,7 @@ padding-right: 70px;
 }
 
 .favorites {
-  margin-bottom: 20%;
+  margin-bottom: 12%;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
