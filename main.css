@@ -32,7 +32,20 @@ h2{
 
 .text{
   padding: 15px 78px;
-  margin: auto 100px;
+  margin: auto 50px;
   text-align: left;
   line-height: normal;
+}
+
+.vidpic{
+  margin-top: 2%;
+}
+
+.vid {
+  margin-left: -61%;
+}
+
+.pic{
+  margin-right: -55%;
+  margin-top: -33.8%;
 }
