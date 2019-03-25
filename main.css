@@ -11,9 +11,16 @@ body {
   margin: 30px auto;
   max-width: 1000px;
   font-family: "Helvetica", "Arial", sans-serif;
-  line-height: 0.3;
+  line-height: 16px;
   padding: 0px 20px;
   text-align: center;
+}
+
+.artiststatement{
+margin-left: 120px;
+margin-right: 120px;
+text-align: justify;
+text-align: center;
 }
 
 .portfolio-item{
