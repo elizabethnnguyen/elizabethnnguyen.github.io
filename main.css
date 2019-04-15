@@ -1,58 +1,74 @@
-h1 {
-  font-size: 60pt;
-  padding-bottom: 15px;
-  text-decoration: underline;
-  line-height: 1;
-  font-family: "Arial Narrow";
-  letter-spacing: -3.5px;
+/* Add a black background color to the top navigation */
+body{
+  max-width: none;
 }
 
-body {
-  margin: 30px auto;
-  max-width: 1000px;
-  font-family: "Helvetica", "Arial", sans-serif;
-  line-height: 16px;
-  padding: 0px 20px;
+.topnav {
+  overflow: hidden;
+}
+
+.nav{
+  margin: 100px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #000000;
   text-align: center;
+  padding: 14px 16px;
+  margin: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: monospace "Arial-Narrow";
+  letter-spacing: 8px;
+  font-weight: lighter;
 }
 
-.artiststatement{
-margin-left: 120px;
-margin-right: 120px;
-text-align: justify;
-text-align: center;
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: black;
+  text-decoration: line-through;
 }
 
-.portfolio-item{
-padding-top: 50px;
-font-size: 18px;
-font-family: "Arial Narrow";
-letter-spacing: -1px;
+/* Add a color to the active/current link */
+.topnav a.active {
+  font-style: italic;
 }
 
-h2{
-  font-size: 20pt;
-  font-family: "Impact";
-  letter-spacing: 0px;
-  line-height: 0;
+#red{
+  max-width: 0px;
+  margin-left: 30%;
+  margin-top: 6%;
+  transition: 0.3s;
+  opacity: 0.6;
 }
 
-.text{
-  padding: 15px 78px;
-  margin: auto 50px;
-  text-align: left;
-  line-height: normal;
+#red:hover{opacity: 1}
+
+#blue{
+  margin-left: 52%;
+  max-width: 0px;
+  margin-top: -3%;
+  transition: 0.3s;
+  opacity: 0.6;
 }
 
-.vidpic{
-  margin-top: 2%;
+#blue:hover{opacity: 1}
+
+#yellow{
+margin-left: 53%;
+max-width: 0px;
+margin-top: -25%;
+transition: 0.3s;
+opacity: 0.6;
 }
 
-.vid {
-  margin-left: -61%;
+#yellow:hover{opacity: 1}
+
+/* .zoom1 {
+  transition: transform 0s;
 }
 
-.pic{
-  margin-right: -55%;
-  margin-top: -33.8%;
-}
+.zoom1:hover {
+  transform: scale(1.1);
+} */

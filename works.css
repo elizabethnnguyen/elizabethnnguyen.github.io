@@ -1,0 +1,56 @@
+h1 {
+  font-size: 60pt;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  line-height: 1;
+  font-family: "Arial Narrow";
+  letter-spacing: -3.5px;
+}
+
+body {
+  margin: auto;
+  max-width: 50%;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 16px;
+  text-align: center;
+  position: relative;
+}
+
+.artiststatement{
+margin: 10px auto;
+text-align: justify;
+text-align: center;
+}
+
+.portfolio-item{
+padding-top: 50px;
+font-size: 18px;
+font-family: "Arial Narrow";
+letter-spacing: -1px;
+margin-left: -20px;
+}
+
+h2{
+  font-size: 20pt;
+  font-family: "Impact";
+  letter-spacing: 0px;
+  line-height: 0;
+}
+
+.text{
+  text-align: left;
+  line-height: normal;
+}
+
+.vidpic{
+  margin-top: 2%;
+}
+
+.vid {
+  margin-left: -76%;
+}
+
+.pic{
+margin-left: 50%;
+  margin-top: -41.3%;
+}
