@@ -85,16 +85,88 @@
       </div>
     </div>
 
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div id="light">
+      <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+      <video id="VisaChipCardVideo" width="600" controls>
+        <source src="assets/project1.webmsd.webm"
+                type="video/webm">
+        <source src="assets/project1.mp4"
+                type="video/mp4">
+        </video>
+    </div>
+
+    <div id="fade" onClick="lightbox_close();"></div>
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div id="light">
+      <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+      <video id="VisaChipCardVideo" width="600" controls>
+        <source src="assets/project_2_documentation_edit_2.webmsd.webm"
+                type="video/webm">
+        <source src="assets/project_2_documentation_edit_2.mp4"
+                type="video/mp4">
+        </video>
+    </div>
+
+    <div id="fade" onClick="lightbox_close();"></div>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div id="light">
+      <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+      <video id="VisaChipCardVideo" width="600" controls>
+        <source src="assets/Flood.webmsd.webm"
+                type="video/webm">
+        <source src="assets/Flood.mp4"
+                type="video/mp4">
+        </video>
+    </div>
+
+    <div id="fade" onClick="lightbox_close();"></div>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div id="light">
+      <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+      <video id="VisaChipCardVideo" width="600" controls>
+        <source src="assets/Seamstress.webmsd.webm"
+                type="video/webm">
+        <source src="assets/Seamstress.mp4"
+                type="video/mp4">
+        </video>
+    </div>
+
+    <div id="fade" onClick="lightbox_close();"></div>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div id="light">
+      <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+      <video id="VisaChipCardVideo" width="600" controls>
+        <source src="assets/Narrative.webmsd.webm"
+                type="video/webm">
+        <source src="assets/Narrative.mp4"
+                type="video/mp4">
+        </video>
+    </div>
+
+    <div id="fade" onClick="lightbox_close();"></div>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
     <div class="icons">
-      <img src="assets/Floodbw.png" alt="flood" style="float: right; width: 20%; margin-right: -0.5%; margin-left: -0.25%; margin-bottom: -0.5%;">
-      <img src="assets/Dependencybw.png" alt="Dependency" style="float: right; width: 20%; margin-right: -0.5%; margin-left: -0.25%; margin-bottom: -0.5%;">
-      <img src="assets/Disposalbw.png" alt="Disposal" style="float: right; width: 20%; margin-right: -0.5%; margin-left: -0.25%; margin-bottom: -0.5%;">
+      <a href="assets/Flood.mp4" onclick="lightbox_open();"><img src="assets/Floodbw.png" alt="flood" style="float: right; width: 20%; margin-right: -0.5%; margin-left: -0.25%; margin-bottom: -0.5%;">
+      <a href="assets/project_2_documentation_edit_2.mp4" onclick="lightbox_open();"><img src="assets/Dependencybw.png" alt="Dependency" style="float: right; width: 20%; margin-right: -0.5%; margin-left: -0.25%; margin-bottom: -0.5%;">
+      <a href="assets/project1.mp4" onclick="lightbox_open();"><img src="assets/Disposalbw.png" alt="Disposal" style="float: right; width: 20%; margin-right: -0.5%; margin-left: -0.25%; margin-bottom: -0.5%;"></a>
       <p style="clear: both;">
     </div>
 
     <div class="icons2">
-      <img src="assets/Buttonsbw.png" alt="buttons" style="float: right; width: 30.1%; margin-right: -0.72%; margin-left: -0.5%; margin-top: -1.8%; margin-bottom: -0.8%;">
-      <img src="assets/Bitterbw.png" alt="Bitter" style="float: right; width: 30.1%; margin-right: -0.72%; margin-left: -0.5%; margin-top: -1.8%; margin-bottom: -0.8%;">
+      <a href="assets/Seamstress.mp4" onclick="lightbox_open();"><img src="assets/Buttonsbw.png" alt="buttons" style="float: right; width: 30.1%; margin-right: -0.72%; margin-left: -0.5%; margin-top: -1.8%; margin-bottom: -0.8%;">
+      <a href="assets/Narrative.mp4" onclick="lightbox_open();"><img src="assets/Bitterbw.png" alt="Bitter" style="float: right; width: 30.1%; margin-right: -0.72%; margin-left: -0.5%; margin-top: -1.8%; margin-bottom: -0.8%;">
     </div>
 
     <div class="text">
@@ -102,19 +174,16 @@
     </div>
 
 
-    <!-- <img src="imageLocation" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"> -->
-    <!-- <div class="watchit">
-    <img src="assets/WatchItSmall.png" alt="watchit" width="400">
-  </div>
-  <div class="bitterprint">
-    <img src="assets/BitterPrintCollage.png" alt="bitterprint" width="400">
-  </div>
-  <div class="digitalcollage">
-    <img src="assets/DigitalCollage.png" alt="digitalcollage" width="400">
-  </div>
-  <div class="3dmashup">
-    <img src="assets/Gif.gif" alt="3dmashup" width="400">
-  </div> -->
+
+
+
+
+
+
+
+
+
+
 
     <div class="column6">
       <div class="banner">
@@ -275,12 +344,13 @@
 <br>float lasty2 = -999;
 <br>float ynoise2 = random(10);
 <br>float y2;
+<br>for (int x=0; x<=1500; x+=step2) {y2 = 600+noise(ynoise2)*20;
 </h2></p>
 </div>
 
 <div class="textcode5">
 <p><h2>
-    <br>for (int x=0; x<=1500; x+=step2) {y2 = 600+noise(ynoise2)*20;
+
         <br>if (lastx > -999) {line(x, y2, lastx2, lasty2);}
          <br>lastx2 = x;
          <br>lasty2 = y2;
