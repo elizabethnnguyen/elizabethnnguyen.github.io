@@ -3,7 +3,7 @@
   margin-bottom: 80px;
 }
 
-.nav{
+.nav {
   margin: 100px;
   text-align: center;
 }
@@ -32,13 +32,12 @@
   font-style: italic;
 }
 
-.category{
+.category {
   overflow: hidden;
   margin-top: 15%
 }
 
 /* //////////////////////////////////////////////////// */
-
 #fade {
   display: none;
   position: fixed;
@@ -91,14 +90,11 @@
   content: "×";
 }
 
-#fade:hover ~ #boxclose {
-  display:none;
+#fade:hover~#boxclose {
+  display: none;
 }
 
-
 /* //////////////////////////////////////////// */
-
-
 /* #motion{
   margin-left: 2.4%;
   transition: 0.3s;
@@ -167,7 +163,6 @@ body. html{
 }
 
 .yellow:hover{opacity: 0.3} */
-
 /* Create two equal columns that floats next to each other */
 /* .column {
   float: left;
@@ -179,7 +174,6 @@ body. html{
   margin-top: 12px;
   vertical-align: middle;
 } */
-
 /* Clear floats after the columns */
 /* .row:after {
   content: "";
@@ -193,23 +187,22 @@ body. html{
   flex-wrap: wrap;
   padding: 0 4px;
 } */
-
-.main{
+.main {
   width: 95%;
 }
-.banner{
+
+.banner {
   opacity: 0.5;
   padding: none;
   margin-left: 6%;
 }
 
-
-.icons{
+.icons {
   margin-top: -0.5%;
 }
 
 
-.icons3{
+.icons3 {
   position: relative;
 }
 
@@ -230,94 +223,94 @@ body. html{
   background-color: #008CBA;
 }
 
-.textcode{
+.textcode {
   float: right;
   margin-right: 25%;
   margin-top: -27%;
 }
 
-.textcode h1{
+.textcode h1 {
   font-size: 30px;
   font-family: "Agency FB";
   letter-spacing: 5px;
 }
 
-.textcode h2{
+.textcode h2 {
   font-size: 12px;
   font-family: "Agency FB";
   letter-spacing: 3px;
   line-height: 15px;
 }
 
-.textcode2{
+.textcode2 {
   float: right;
   margin-right: 19%;
   margin-top: -21%;
 }
 
-.textcode2 h1{
+.textcode2 h1 {
   font-size: 30px;
   font-family: "Agency FB";
   letter-spacing: 5px;
 }
 
-.textcode2 h2{
+.textcode2 h2 {
   font-size: 12px;
   font-family: "Agency FB";
   letter-spacing: 3px;
   line-height: 14.5px;
 }
 
-.textcode3{
+.textcode3 {
   float: right;
   margin-top: -21%;
 }
 
-.textcode3 h1{
+.textcode3 h1 {
   font-size: 30px;
   font-family: "Agency FB";
   letter-spacing: 5px;
 }
 
-.textcode3 h2{
+.textcode3 h2 {
   font-size: 12px;
   font-family: "Agency FB";
   letter-spacing: 3px;
   line-height: 15px;
 }
 
-.textcode4{
+.textcode4 {
   float: right;
   margin-top: -2%;
   margin-right: 24%;
 }
 
-.textcode4 h1{
+.textcode4 h1 {
   font-size: 30px;
   font-family: "Agency FB";
   letter-spacing: 5px;
 }
 
-.textcode4 h2{
+.textcode4 h2 {
   font-size: 12px;
   font-family: "Agency FB";
   letter-spacing: 3px;
   line-height: 15px;
 }
 
-.textcode5{
+.textcode5 {
   float: right;
   margin-top: -29%;
   margin-left: 50%;
 }
 
-.textcode5 h1{
+.textcode5 h1 {
   font-size: 30px;
   font-family: "Agency FB";
   letter-spacing: 5px;
 }
 
-.textcode5 h2{
+.textcode5 h2 {
   font-size: 12px;
   font-family: "Agency FB";
   letter-spacing: 3px;
