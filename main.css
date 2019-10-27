@@ -47,9 +47,9 @@ body{
 #red:hover{opacity: 1}
 
 #blue{
-  margin-left: 49.5%;
+  margin-left: 49%;
   max-width: 0px;
-  margin-top: -5.5%;
+  margin-top: -6%;
   transition: 0.3s;
   opacity: 0.6;
 }
