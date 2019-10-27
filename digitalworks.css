@@ -13,7 +13,7 @@
   color: #000000;
   text-align: center;
   padding: 14px 16px;
-  margin: 130px;
+  margin: 125px;
   text-decoration: none;
   font-size: 20px;
   font-family: monospace "Arial-Narrow";
@@ -94,99 +94,6 @@
   display: none;
 }
 
-/* //////////////////////////////////////////// */
-/* #motion{
-  margin-left: 2.4%;
-  transition: 0.3s;
-  opacity: 0.6;
-  padding: none;
-  max-width: none;
-}
-
-#motion:hover{opacity: 1}
-
-#collabs{
-text-align: center;
-margin-top: -18.2%;
-padding: none;
-transition: 0.3s;
-opacity: 0.6;
-max-width: none;
-}
-
-#collabs:hover{opacity: 1}
-
-#prints{
-float: right;
-margin-top: -26%;
-padding: none;
-margin-right: 2.4%;
-transition: 0.3s;
-opacity: 0.6;
-max-width: none;
-}
-
-#prints:hover{opacity: 1} */
-/* body {
-  height: 100vh;
-  overflow: hidden;
-  max-width: none;
-  background-image: linear-gradient(90deg, #F15A29 33.33%, #0D90B7 33.33%, #0D90B7 66.66%, #FBB040 66.66%);
-  background-size: 80% 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0px;
-}
-
-body. html{
-  width: 100%;
-  height: 100%;
-}
-
-.red{
-  transition: 0.3s;
-  opacity: 6;
-}
-
-.red:hover{opacity: 0.3}
-
-.blue{
-  transition: 0.3s;
-  opacity: 6;
-}
-
-.blue:hover{opacity: 0.3}
-
-.yellow{
-  transition: 0.3s;
-  opacity: 6;
-}
-
-.yellow:hover{opacity: 0.3} */
-/* Create two equal columns that floats next to each other */
-/* .column {
-  float: left;
-  width: 30%;
-  padding: 5px;
-}
-
-.column img {
-  margin-top: 12px;
-  vertical-align: middle;
-} */
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-} */
 .main {
   width: 95%;
 }
@@ -316,3 +223,29 @@ body. html{
   letter-spacing: 3px;
   line-height: 15px;
 }
+
+
+#link1{
+  opacity: 1;
+}
+#link1:hover{opacity: 0.5}
+
+#link2{
+  opacity: 1;
+}
+#link2:hover{opacity: 0.5}
+
+#link3{
+  opacity: 1;
+}
+#link3:hover{opacity: 0.5}
+
+#link4{
+  opacity: 1;
+}
+#link4:hover{opacity: 0.5}
+
+#link5{
+  opacity: 1;
+}
+#link5:hover{opacity: 0.5}

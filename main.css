@@ -17,7 +17,7 @@ body{
   color: #000000;
   text-align: center;
   padding: 14px 16px;
-  margin: 130px;
+  margin: 125px;
   text-decoration: none;
   font-size: 20px;
   font-family: monospace "Arial-Narrow";
@@ -38,8 +38,8 @@ body{
 
 #red{
   max-width: 0px;
-  margin-left: 30%;
-  margin-top: 6%;
+  margin-left: 25%;
+  margin-top: 9%;
   transition: 0.3s;
   opacity: 0.6;
 }
@@ -47,9 +47,9 @@ body{
 #red:hover{opacity: 1}
 
 #blue{
-  margin-left: 52%;
+  margin-left: 49.5%;
   max-width: 0px;
-  margin-top: -3%;
+  margin-top: -5.5%;
   transition: 0.3s;
   opacity: 0.6;
 }
@@ -57,9 +57,9 @@ body{
 #blue:hover{opacity: 1}
 
 #yellow{
-margin-left: 53%;
+margin-left: 51.5%;
 max-width: 0px;
-margin-top: -25%;
+margin-top: -31%;
 transition: 0.3s;
 opacity: 0.6;
 }
