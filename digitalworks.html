@@ -275,7 +275,59 @@
 
     </div>
 
+
+
+
+
+  <div class="column6">
+    <div class="banner">
+      <img src="assets/photoBanner.png" alt="photobanner" height="350">
+    </div>
   </div>
+
+
+  <div class="slideshow">
+
+    <div id="slider">
+  		<div id="box">
+  		  <img src="assets/Skin/1.jpg">
+  		</div>
+  		<!-- buttons for controls slider -->
+  		<button class="left prev" onclick="prewImage()"><p id="prev">PREV</button>
+  		<button class="right next" onclick="nextImage()"><p id="next">NEXT</button>
+  	</div>
+    <script type="text/javascript">
+      	var slider_content = document.getElementById('box');
+      	// contain images in an array
+        var image = ['assets/Skin/1','assets/Skin/2', 'assets/Skin/3', 'assets/Skin/4','assets/Skin/5','assets/Skin/6','assets/Skin/7','assets/Skin/8','assets/Skin/9','assets/Skin/10','assets/Skin/11','assets/Skin/12','assets/Skin/13','assets/Skin/14','assets/Skin/15','assets/Skin/16','assets/Skin/17','assets/Skin/18'];
+        var i = image.length;
+        // function for next slide
+        function nextImage(){
+        	if (i<image.length) {
+        		i= i+1;
+        	}else{
+        		i = 1;
+        	}
+        	  slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+        }
+        // function for prew slide
+        function prewImage(){
+
+        	if (i<image.length+1 && i>1) {
+        		i= i-1;
+        	}else{
+        		i = image.length;
+        	}
+        	  slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+        }
+      </script>
+  </div>
+
+  <div class="text">
+    <img src="assets/skinText.png" alt="photoText" style="float: left; width: 43%; margin-left: 5%; margin-top: 1.5%;">
+  </div>
+</div>  <!-- //end main div -->
+
 </body>
 
 </html>

@@ -108,7 +108,6 @@
   margin-top: -0.5%;
 }
 
-
 .icons3 {
   position: relative;
 }
@@ -209,6 +208,7 @@
   float: right;
   margin-top: -29%;
   margin-left: 50%;
+  margin-bottom: -0.5%;
 }
 
 .textcode5 h1 {
@@ -224,28 +224,93 @@
   line-height: 15px;
 }
 
-
-#link1{
+#link1 {
   opacity: 1;
 }
-#link1:hover{opacity: 0.5}
 
-#link2{
+#link1:hover {
+  opacity: 0.5
+}
+
+#link2 {
   opacity: 1;
 }
-#link2:hover{opacity: 0.5}
 
-#link3{
+#link2:hover {
+  opacity: 0.5
+}
+
+#link3 {
   opacity: 1;
 }
-#link3:hover{opacity: 0.5}
 
-#link4{
+#link3:hover {
+  opacity: 0.5
+}
+
+#link4 {
   opacity: 1;
 }
-#link4:hover{opacity: 0.5}
 
-#link5{
+#link4:hover {
+  opacity: 0.5
+}
+
+#link5 {
   opacity: 1;
 }
-#link5:hover{opacity: 0.5}
+
+#link5:hover {
+  opacity: 0.5
+}
+
+
+#slider {
+  width: 800px;
+  height: 300px;
+  margin-left: : 50%;
+  margin-right: 50%;
+  margin-top: 50%;
+  margin-bottom: 30%;
+  position: relative;
+
+}
+
+button {
+  padding-top: 204px;
+  padding-bottom: 205px;
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  font-family: "Agency FB";
+  letter-spacing: 3px;
+  font-weight: lighter;
+  position: absolute;
+  top: -0.2%;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.right {
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 101%;
+}
+
+.right:hover{
+  opacity: 0.5;
+}
+
+.left {
+  border-radius: 10px 0px 0px 10px;
+  margin-left: -8.5%;
+}
+
+.left:hover{
+  opacity: 0.5;
+}
+
+.slideshow{
+  float: right;
+  margin-right: 4%;
+  margin-top: -22.2%;
+}
