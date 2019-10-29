@@ -123,3 +123,9 @@ input[type=submit]:hover {
 margin-right: -8%;
 margin-top: 2%;
 }
+
+.image{
+  float: left;
+  margin-left: 15%;
+  margin-top: 5%;
+}
