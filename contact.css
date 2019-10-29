@@ -129,3 +129,19 @@ margin-top: 2%;
   margin-left: 15%;
   margin-top: 5%;
 }
+
+button{
+  background-color: white;
+  border: 1px solid;
+  font-family: "Agency FB";
+  letter-spacing: 1px;
+  font-weight: lighter;
+}
+
+
+#dev{
+  font-size: 15px;
+  font-family: "Agency FB";
+  letter-spacing: 3px;
+  color: red;
+}

@@ -29,10 +29,11 @@
 </div>
 
 <div class="message">
-  <form action="/action_page.php">
-      <label for="subject"><p id="leaveMessage">OR LEAVE A MESSAGE HERE:</p></label>
+  <!-- action="/actionForm.php" -->
+  <form class="contact">
+      <label for="subject"><p id="leaveMessage">OR SEND A MESSAGE HERE: <span id="dev">&nbsp&nbsp&nbsp&nbsp...(UNDER DEVELOPMENT)</span></p></label>
     <textarea id="subject" name="subject" placeholder="WHAT'S YA MESSAGE?" style="height:250px"></textarea>
-    <input type="submit" value="SUBMIT">
+    <button type="submit" name="submit" onClick="window.location.href=window.location.href">SUBMIT</button>
   </form>
 </div>
 
