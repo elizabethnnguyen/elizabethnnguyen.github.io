@@ -112,21 +112,21 @@
   position: relative;
 }
 
-.icons3:hover .overlay {
+/* .icons3:hover .overlay {
   opacity: 1;
+} */
+
+#overlay {
+  opacity: 1;
+  margin: none;
+  padding: none;
+  object-fit: contain;
+
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
+#overlay:hover{
+  opacity: 1;
   transition: .5s ease;
-  background-color: #008CBA;
 }
 
 .textcode {
