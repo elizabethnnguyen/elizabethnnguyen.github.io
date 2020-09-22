@@ -3,13 +3,15 @@
   cursor: url(https://i.ibb.co/p2JTSFn/Small-Cursor.png), auto;
 } */
 
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   color: #616161;
   background-color: #ffffff;
   text-align: left;
 }
-
 
 
 .animate-in {
@@ -34,13 +36,6 @@ body {
 }
 
 
-
-
-
-.backgroundGif {
-  width: 100%;
-}
-
 .widecontainer {
   position: relative;
   width: 100%;
@@ -60,11 +55,6 @@ h3 {
     text-align: left;
 }
 
-
-.nav_pad {
-  padding-top: 40px;
-}
-
 /* .section is the row section */
 
 .section {
@@ -82,9 +72,6 @@ h3 {
   font-weight: bold;
 }
 
-.stripe {
-  background-color: #DADADA;
-}
 
 
 a:link {
@@ -166,59 +153,6 @@ ul.disc {
   letter-spacing: 5px;
 }
 
-#box:link, #box:visited {
-  background-color: #616161;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 30px;
-  letter-spacing: 10px;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 10px;
-}
-
-#box:hover, #box:active {
-  background-color: #d9a19c;
-}
-
-#box2:link, #box2:visited {
-  background-color: #616161;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 20px;
-  letter-spacing: 10px;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 10px;
-}
-
-#box2:hover, #box:active {
-  background-color: #d9a19c;
-}
-
-#buttons {
-  margin-top: -40px;
-}
-
-vv text-decoration: underline;
-}
-
-/*
-
-img {
-  opacity: 0.5;
-}
-
-img:hover {
-  opacity: 1.0;
-}
-*/
-
-
 
 .scrollbox:hover {
    overflow: auto;
@@ -261,7 +195,7 @@ img:hover {
   font-size: 20px;
 }
 
-.home-btn:hover {
+/* .home-btn:hover {
   color: pink;
 }
 
@@ -315,10 +249,10 @@ img:hover {
 #main {
   transition: margin-left .5s;
   padding: 16px;
-}
+} */
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 750px) {
+/* @media screen and (max-height: 750px) {
   .sidebar {
     padding-top: 60px;
 
@@ -327,7 +261,7 @@ img:hover {
     font-size: 15px;
     letter-spacing: 8px;
   }
-}
+} */
 
 
   .img__wrap {
