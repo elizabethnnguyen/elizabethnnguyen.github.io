@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Elizabeth</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT ––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script type="text/javascript" src="css/overlaypopup.js"> </script>
+  <script type="text/javascript" src="css/sidebar.js"></script>
+  <script type="text/javascript" src="css/modal.js"></script>
+  <script type="text/javascript" src="css/transistion.js"></script>
+  <!-- <script type="text/javascript" src="css/slideshow.js"></script> -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/overlaypopup.css" />
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+</head>
+
+<body class"animate-in">
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <div class="row section" style="margin-top: 10%">
+
+      <div class="two columns">
+        <a class="title-name" href="Home.html">
+          <h3>ELIZABETH <br> N.NGUYEN</h3>
+        </a>
+        <div class="bio">
+        <a class="navbar-link" href="Bio.html">ABOUT</a>
+        </div>
+        <!-- <div class="navbar">
+        <div class="row section">
+          <a class="navbar-link" href="Video.html">VIDEO</a><br>
+          <a class="navbar-link" href="Digital_Collage.html">COLLAGE</a><br>
+          <a class="navbar-link" href="3D.html">3D</a><br>
+          <a class="navbar-link" href="Net_Art.html">NET ART</a><br>
+          <a class="navbar-link" href="Robotics.html">ROBOTICS</a><br>
+        </div>
+      </div> -->
+      </div>
+
+      <div class="nine columns">
+        <div class="scrollbox">
+
+          <div class="row section">
+
+            <div class="six columns">
+              <div class="img__wrap">
+              <img src="assets/Disposalbw.png" alt="Disposal" class="u-full-width" /></a>
+              <div class="img__description_layer">
+                <a href="#openModal">
+                  <p class="img__description">Disposal</p>
+                  <p class="img__description2">Digital Video, 2 min, 2018.</p>
+                </a>
+              </div>
+              </div>
+              <div id="openModal" class="modalDialog">
+                <div>
+                  <a href="#close" title="Close" class="close">X</a>
+                  <div class="row section" id="modal-content">
+                    <div class="seven columns">
+                      <video controls>
+                        <source src="assets/disposal.mp4" type="video/mp4">
+                        <source src="assets/disposal.webm" type="video/webm">
+                      </video>
+                    </div>
+                    <div class="five columns" id="text-spacing">
+                      <h2>DISPOSAL</h2>
+                      <p>This heavily edited video can be interpreted differently depending on the viewer. However, the intial concept was to focus on environmental damage caused by human inhabitants. As the video progresses and more trash is being
+                        seen, the visuals and audio worsen, almost mimicking death.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="six columns">
+              <div class="img__wrap">
+              <img src="assets/Dependencybw.png" alt="Dependency" class="u-full-width" /></a>
+              <div class="img__description_layer">
+                <a href="#openModal2">
+                  <p class="img__description">Dependency</p>
+                  <p class="img__description2">Installation with digital video, cardboard, blankets, plastic tarp, bamboo sticks, 2018.</p>
+                </a>
+              </div>
+              </div>
+
+              <div id="openModal2" class="modalDialog2">
+                <div>
+                  <a href="#close" title="Close" class="close">X</a>
+                  <div class="row section" id="modal-content">
+                    <div class="seven columns">
+                      <div class="slideshow-container">
+                        <div class="mySlides fade" style="display: block;">
+                          <div class="numbertext">1 / 2</div>
+                          <video controls>
+                              <source src="assets/dependencyDoc.mp4" type="video/mp4">
+                              <source src="assets/dpendencyDoc.webm" type="video/webm">
+                          </video>
+                        </div>
+                        <div class="mySlides fade" style="display: none;">
+                          <div class="numbertext">2 / 2</div>
+                          <video controls>
+                            <source src="assets/Dependency.mp4" type="video/mp4">
+                            <source src="assets/Dependency.webm" type="video/webm">
+                          </video>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                      </div>
+
+                      <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                      </div>
+
+                    </div>
+                    <div class="five columns" id="text-spacing">
+                      <h2>DEPENDENCY</h2>
+                      <p>This arrangement reflects upon differing economic classes with those who live a more wealthy lifestyle and are dependent on their overall status and wealth, whereas those who are facing poverty are
+                        dependent on basic necessities.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+          <div class="row section">
+
+            <div class="six columns">
+              <div class="img__wrap">
+              <img src="assets/Floodbw.png" alt="Flood" class="u-full-width" /></a>
+              <div class="img__description_layer">
+                <a href="#openModal3">
+                  <p class="img__description">Flood</p>
+                  <p class="img__description2">Digital Video, 42 sec, 2019.</p>
+                </a>
+              </div>
+            </div>
+            <div id="openModal3" class="modalDialog3">
+              <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <div class="row section" id="modal-content">
+                  <div class="seven columns">
+                    <video controls>
+                      <source src="assets/Flood.mp4" type="video/mp4">
+                      <source src="assets/Flood.webm" type="video/webm">
+                    </video>
+                  </div>
+                  <div class="five columns" id="text-spacing">
+                    <h2>Flood</h2>
+                    <p>A flooded, lone lot that glows with spirit. First attempt of animating with After Effects.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+
+            <div class="six columns">
+              <div class="img__wrap">
+              <img src="assets/Bitterbw.png" alt="Bitter" class="u-full-width" /></a>
+              <div class="img__description_layer">
+                <a href="#openModal4">
+                  <p class="img__description">Bitter</p>
+                  <p class="img__description2">Digital Video, 6 min, 2019.</p>
+                </a>
+              </div>
+              </div>
+              <div id="openModal4" class="modalDialog4">
+                <div>
+                  <a href="#close" title="Close" class="close">X</a>
+                  <div class="row section" id="modal-content">
+                    <div class="seven columns">
+                      <video controls>
+                        <source src="assets/Narrative2.mp4" type="video/mp4">
+                        <source src="assets/Narrative.webm" type="video/webm">
+                      </video>
+                    </div>
+                    <div class="five columns" id="text-spacing">
+                      <h2>Bitter</h2>
+                      <p>A metaphorical take on bitterness. With any sort of heartbreak or trauma, comes resentment that can linger for as long as you want it to. And thus, a film of self-reflection of myself in that manner.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+
+          <div class="row section">
+
+            <div class="six columns">
+              <div class="img__wrap">
+              <img src="assets/Buttonsbw.png" alt="Buttons" class="u-full-width" /></a>
+              <div class="img__description_layer">
+                <a href="#openModal5">
+                  <p class="img__description">Seamstress</p>
+                  <p class="img__description2">Digital Video, 2 min, 2019.</p>
+                </a>
+              </div>
+              </div>
+              <div id="openModal5" class="modalDialog5">
+                <div>
+                  <a href="#close" title="Close" class="close">X</a>
+                  <div class="row section" id="modal-content">
+                    <div class="seven columns">
+                      <video controls>
+                        <source src="assets/Seamstress.mp4" type="video/mp4">
+                        <source src="assets/Seamstress.webm" type="video/webm">
+                      </video>
+                    </div>
+                    <div class="five columns" id="text-spacing">
+                      <h2>Seamstress</h2>
+                      <p>A somewhat eerie perception of female stereotypes. I grew up in a traditional household so I was expected to follow certain standards. There are two videos overlaid on top of each other; one is stock footage from 1955 called Sewing Machine and the other is a montage of short clips I filmed, each scene representing some form of sewing.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="six columns">
+              <div class="img__wrap2">
+              <img src="assets/DigitalCollageBW.jpg" alt="Digital Collage" class="u-full-width" /></a>
+              <div class="img__description_layer2">
+                <a href="#openModal7">
+                  <p class="img__description3">VN</p>
+                  <p class="img__description4">Digital Collage, Photoshop, 2019.</p>
+                </a>
+              </div>
+              </div>
+              <div id="openModal7" class="modalDialog7">
+                <div>
+                  <a href="#close" title="Close" class="close">X</a>
+                  <div class="row section" id="modal-content">
+                    <div class="seven columns">
+                      <div class="slideshow-container">
+                        <div class="mySlides fade" style="display: block;">
+                          <div class="numbertext">1 / 2</div>
+                          <img src="assets/DigitalCollage.png" alt="Digital Collage" class="u-full-width" style="width: 100%; height: auto; padding: none;"/>
+                        </div>
+                        <div class="mySlides fade" style="display: none;">
+                          <div class="numbertext">2 / 2</div>
+                          <img src="assets/DigitalCollageGlitch.png" alt="Digital Collage Glitch" class="u-full-width" style="width: 100%; height: auto; padding: none;"/>
+                        </div>
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+                      </div>
+
+                      <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                      </div>
+
+                    </div>
+                    <div class="five columns" id="text-spacing">
+                      <h2>VN</h2>
+                      <p>A digital collage utilizing moments from 1970's Vietnam. The glitch variation was acheived through Audacity.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+          <div class="row section">
+
+
+            <div class="six columns">
+              <div class="img__wrap2">
+              <img src="assets/BitterPrintCollageBW.jpg" alt="Print Collage" class="u-full-width" /></a>
+              <div class="img__description_layer2">
+                <a href="#openModal6">
+                  <p class="img__description3">"Bitter" - Print Collage</p>
+                  <p class="img__description4">Digital Collage, Photoshop, 2019.</p>
+                </a>
+              </div>
+              </div>
+              <div id="openModal6" class="modalDialog6">
+                <div>
+                  <a href="#close" title="Close" class="close">X</a>
+                  <div class="row section" id="modal-content">
+                    <div class="six columns">
+                      <img src="assets/BitterPrintCollage.png" alt="Bitter Print" class="u-full-width" style="width: 100%; height: auto; padding: none;"/>
+                    </div>
+                    <div class="six columns" id="text-spacing">
+                      <h2>"Bitter" - Print Collage</h2>
+                      <p>A print created from the character of my personal video narrative, <em>Bitter</em>. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="six columns">
+              <div class="img__wrap2">
+              <img src="assets/DigitizedBeingBW.jpg" alt="Digitized Being" class="u-full-width" /></a>
+              <div class="img__description_layer2">
+                <a href="#openModal8">
+                  <p class="img__description3">Digitized Being</p>
+                  <p class="img__description4">3-D Render, Mesh Mixer, Blender, Google Poly, 2019.</p>
+                </a>
+              </div>
+              </div>
+              <div id="openModal8" class="modalDialog8">
+                <div>
+                  <a href="#close" title="Close" class="close">X</a>
+                  <div class="row section" id="modal-content">
+                    <div class="six columns">
+                      <img src="assets/Gif.gif" alt="Digitized Being" class="u-full-width" style="width: 100%; height: auto; padding: none;"/>
+                    </div>
+                    <div class="six columns" id="text-spacing">
+                      <h2>Digitized Being</h2>
+                      <p>A 3-D mash-up piece that utilizes free 3-D assets with designs of my own. Both the monitor and keyboard are free assets from Google Poly and the torso is another asset from a standard human body template from MeshMixer. Attached everything in Blender and added sockets and wires to arms and back.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="one columns">
+        <div class="contact-bar">
+        <a class="navbar-link" href="mailto:elizabethnguyen02@gmail.com">EMAIL</a><br>
+        <a class="navbar-link" href="https://www.linkedin.com/in/elizabethtrucnguyen/" target="_blank" rel="noopener noreferrer">LINKEDIN</a><br>
+        <a class="navbar-link" href="https://www.instagram.com/eliznng/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a><br>
+        </div>
+      </div>
+
+
+
+      <!--////  End of row section-->
+    </div>
+
+    <!-- end of MAIN container /////////////////-->
+
+  </div>
+
+
+
+
+  <!-- ///////START of Overlay and pops for videos ///////////////////////////////////////////////////////////////// -->
+
+  <div class="overlay-bg"> </div>
+
+  <div class="overlay-content popup1">
+
+    <!--   sketch content here///////////////// -->
+
+
+    <button class="close-btn">X</button>
+  </div>
+
+  <div class="overlay-content popup2">
+
+    <!-- sketch content here/////////////////-->
+
+    <button class="close-btn">X</button>
+  </div>
+
+</body>
+
+<script type="text/javascript">
+
+var slideIndex = 1;
+ showSlides(slideIndex);
+
+ function plusSlides(n) {
+   showSlides(slideIndex += n);
+ }
+
+ function currentSlide(n) {
+   showSlides(slideIndex = n);
+ }
+
+ function showSlides(n) {
+   var i;
+   var slides = document.getElementsByClassName("mySlides");
+   var dots = document.getElementsByClassName("dot");
+   if (n > slides.length) {slideIndex = 1}
+   if (n < 1) {slideIndex = slides.length}
+   for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+   }
+   for (i = 0; i < dots.length; i++) {
+       dots[i].className = dots[i].className.replace(" active", "");
+   }
+   slides[slideIndex-1].style.display = "block";
+   dots[slideIndex-1].className += " active";
+ }
+
+</script>
+
+</html>
