@@ -1,18 +1,10 @@
-#loader {
-  position: fixed;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background-color:#FFF; /* change if the mask should have another color then white */
-  z-index:99999; /* makes sure it stays on top */
-}
 
 
 html {
   box-sizing: border-box;
   color: #404040;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 6.25em) {
