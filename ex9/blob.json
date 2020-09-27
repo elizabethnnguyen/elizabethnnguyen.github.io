@@ -1,0 +1,18 @@
+{
+"name":"Olive",
+"r":116,
+"g":127,
+"b":171,
+"bsizeW": 40,
+"bsizeH": 60,
+"posX":[100,15,20,45,20,10,37,100,15,20,45,20,10,37],
+"posY":[100,18,39,39,19,12,34,39,19,12,34,20,10,20],
+"shape":"circle",
+"phrases":[
+            "I was born on this server.",
+            "I've been programmed to ask about you.",
+            "How are you feeling today?",
+            "Are you alone?",
+            "Would you like some company?"
+          ]
+}

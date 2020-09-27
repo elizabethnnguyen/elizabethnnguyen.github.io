@@ -361,7 +361,7 @@ h2, .h2 {
   letter-spacing: 4px;
   transform: rotate(-90deg) perspective(1px);
   transform-origin: 50px 50px;
-  position: absolute;
+  position: fixed;
   top: 150px;
   line-height: 20px;
 }
@@ -381,7 +381,7 @@ h2, .h2 {
   letter-spacing: 3px;
   transform: rotate(-90deg) perspective(1px);
   transform-origin: 50px 50px;
-  position: absolute;
+  position: fixed;
   bottom: 80px;
   padding: 0 auto;
   line-height: 20px;
@@ -401,12 +401,13 @@ h2, .h2 {
   opacity: 1;
 }
 
+
 @media (min-width: 750px){
 .vl{
   border-left: 1px dashed rgba(0, 0, 0, 0.3);
   height: 100%;
   margin-left: 60px;
-  position: absolute;
+  position: fixed;
 }
 }
 
@@ -416,7 +417,7 @@ h2, .h2 {
     border-left: 1px dashed rgba(0, 0, 0, 0.3);
     height: 100%;
     margin-left: 40px;
-    position: absolute;
+    position: fixed;
   }
 }
 
@@ -460,12 +461,51 @@ h2, .h2 {
 }
 
 
+.vid button {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: "ff-meta-serif-web-pro", serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.vid #btn{
+  text-align: center;
+}
+
 video {
   padding: none;
 }
 
+.vid img{
+  max-width: 600px;
+}
+
+.vid #three-d{
+  max-width: 60%;
+}
+
 .vid{
   text-align: center;
+}
+
+.vid a{
+  color: #949494;
+}
+
+.vid a:hover{
+  color: #de5f5f;
+}
+
+.vid #warn{
+  font-size: 13px;
+}
+
+.viewbtn{
+  border: solid 2px;
 }
 
 .vid p {
@@ -494,6 +534,14 @@ video {
   color: #808080;
 }
 
+.vid h6 span{
+  font-weight: lighter;
+  text-transform: lowercase;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
 @media (max-width: 280px){
   video {
     max-width: 270px;
@@ -507,6 +555,14 @@ video {
     max-width: 90%;
     padding-left: 40px;
   }
+
+  .vid img{
+    padding-left: 40px
+  }
+  .vid #three-d{
+    max-width: 80%;
+  }
+
 }
 
 
@@ -520,8 +576,15 @@ video {
   }
   .vid p, h6{
     text-align: center;
-    max-width: 100%;
+    max-width: 90%;
     padding-left: 40px;
+  }
+
+  .vid img{
+    padding-left: 40px
+  }
+  .vid #three-d{
+    max-width: 80%;
   }
 }
 
@@ -537,5 +600,12 @@ video {
     text-align: justify;
     max-width: 90%;
     padding-left: 40px;
+  }
+  .vid img{
+    max-width: 500px;
+    padding-left: 40px;
+  }
+  .vid #three-d{
+    max-width: 80%;
   }
 }

@@ -1,0 +1,31 @@
+{
+    "questions":
+  [
+    {
+      "text1":"Looks like you have some messages left by MOM and JENN.",
+      "text2":0,
+      "text3":0
+
+    },
+    {
+      "text1":"MOM wants to know how you're doing.",
+      "text2":"Message sent.",
+      "text3":"Message ignored."
+    },
+    {
+      "text1":"JENN wants to know when you'll be free to facetime.",
+      "text2":"Message sent.",
+      "text3":"Message ignored."
+    },
+    {
+      "text1":"Looks like there's a new message from BABE.",
+      "text2":"Message ignored.",
+      "text3":0
+    },
+    {
+      "text1":"BABE wants to know what you want for dinner tonight.",
+      "text2":"Message sent.",
+      "text3":"Message ignored."
+    }
+  ]
+}

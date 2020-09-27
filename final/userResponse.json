@@ -1,0 +1,31 @@
+{
+    "responses":
+  [
+    {
+      "response1":"What did Mom say?",
+      "response2":"Let's see what Jenn wanted.",
+      "response3":0
+
+    },
+    {
+      "response1":"I'm good.",
+      "response2":"(Ignore)",
+      "response3":"I'm doing great! I see you made changes to the living room."
+    },
+    {
+      "response1":"Let me check my schedule.",
+      "response2":"(Ignore)",
+      "response3":"How about Friday night? Looks like you've had a long week."
+    },
+    {
+      "response1":"View message",
+      "response2":"Ignore message",
+      "response3":0
+    },
+    {
+      "response1":"I'm not sure...",
+      "response2":"(Ignore)",
+      "response3":"Let's cook some spicy ramen with egg!"
+    }
+  ]
+}
