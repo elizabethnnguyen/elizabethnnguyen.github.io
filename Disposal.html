@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Elizabeth</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT ––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="works.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+  <div class="twelve columns">
+    <div class="name">
+      <a href="#">Elizabeth Nguyen</a>
+    </div>
+    <div class="topnav">
+      <a href="mailto:elizabethnguyen02@gmail.com">EMAIL</a>
+      <a href="https://www.linkedin.com/in/elizabethtrucnguyen/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+      <a href="https://www.instagram.com/eliznng/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+    </div>
+    <section class="section section--hello" id="hello">
+      <div class="section__inner">
+        <div class="block">
+          <a class="pre" href="#hello"><span>fine arts major</span></a>
+          <a href="elizn.html"><h2 class="popout"><span>e</span><span>l</span><span>i</span><span>z</span><span>.</span><span>n</span></h2></a>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="vid">
+      <h6>Disposal</h6>
+      <p>This heavily edited video can be interpreted differently depending on the viewer. However, the intial concept was to focus on environmental damage caused by human inhabitants. As the video progresses and more trash is being
+        seen, the visuals and audio worsen, almost mimicking death.</p>
+      <video controls>
+        <source src="assets/disposal.mp4" type="video/mp4">
+        <source src="assets/disposal.webm" type="video/webm">
+      </video>
+    </div>
+
+  </div>
+
+  <div class="vl"></div>
+
+
+
+</body>
+
+
+<script src="https://use.typekit.net/ehh4lya.js"></script>
+<script>
+  try {
+    Typekit.load({
+      async: true
+    });
+  } catch (e) {}
+</script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel") ||
+        $(event.target).is(".cd-panel-close")
+      ) {
+        $(".cd-panel").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn2").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel2").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel2").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel2") ||
+        $(event.target).is(".cd-panel-close2")
+      ) {
+        $(".cd-panel2").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn3").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel3").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel3").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel3") ||
+        $(event.target).is(".cd-panel-close3")
+      ) {
+        $(".cd-panel3").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+</script>
+
+
+</html>
