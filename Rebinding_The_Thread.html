@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Elizabeth</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT ––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="works.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+  <div class="twelve columns">
+    <div class="name">
+      <a href="#">Elizabeth Nguyen</a>
+    </div>
+    <div class="topnav">
+      <a href="mailto:elizabethnguyen02@gmail.com">EMAIL</a>
+      <a href="https://www.linkedin.com/in/elizabethtrucnguyen/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+      <a href="https://www.instagram.com/eliznng/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+    </div>
+    <section class="section section--hello" id="hello">
+      <div class="section__inner">
+        <div class="block">
+          <a class="pre" href="#hello"><span>fine arts major</span></a>
+          <a href="elizn.html"><h2 class="popout"><span>e</span><span>l</span><span>i</span><span>z</span><span>.</span><span>n</span></h2></a>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="vid">
+      <h6>Rebinding the Thread <span>procreate, mozilla hubs 2021.</span></h6>
+      <p>This piece was inspired during one of my walks around my neighborhood. I had ended up at Lion Plaza, which is a well-known a public square in East San Jose consisting primarily of Vietnamese-owned businesses including restaurants, a supermarket, and more. As I walked around the area, I started to feel very nostalgic. I grew up going to this plaza almost every week with my parents. This was THE place to go whenever we needed food or groceries, household items, clothing, toys, comic books, etc. We also went here often to celebrate special occasions and to simply meet up with friends and family. I began to realize how disconnected I've become with my heritage especially during my early-teen to early-adult years. I remember feeling disgruntled with my culture and, at one point, I even questioned why we never went to Safeway or Albertson's to get our groceries. I remember wanting to bring sandwiches to school instead of my mom’s usual recipes, which consisted of rice, soup, and some sort of meat dish. I watched a lot of TV, especially sitcoms, and I remember comparing my lifestyle with what I saw on TV. Embarrassingly enough, I wanted to seem “less asian”.</p>
+
+      <p>This revelation encouraged me to create a space where I could re-connect myself with my heritage. The photographs I took were areas of Lion Plaza and I re-visualized them in a way that emphasizes the culture I grew up with. I illustrated these visuals on top of the photos and created a 3D space to host these images using Mozilla Hubs so that others can join in and view this environment.</p>
+
+      <p>This experience pushed me to explore the dynamics between the virtual world and the physical. Living in the digital age, we often seek the line that divides the two realities in order to gain a better grasp of our own. Rebinding the Thread is meant to embrace the merging of the two worlds and demonstrate the beauty of such arrangement. This process gives us creative control over how we’d want to perceive certain events or settings, opening up the door to speculative thinking and design.</p>
+      <p id="btn"><button type="button" name="button"><a href="https://hubs.mozilla.com/LuPgtQH/rebinding-the-thread">VIEW ENVIRONMENT</a></button></p>
+      <img src="assets/scene1.jpg" alt="Rebinding" class="u-full-width" id="three-d"/>
+      <img src="assets/scene2.jpg" alt="Rebinding" class="u-full-width" id="three-d"/>
+      <img src="assets/scene3.jpg" alt="Rebinding" class="u-full-width" id="three-d"/>
+      <img src="assets/scene4.jpg" alt="Rebinding" class="u-full-width" id="three-d"/>
+      <img src="assets/scene5.jpg" alt="Rebinding" class="u-full-width" id="three-d"/>
+      <img src="assets/scene6.jpg" alt="Rebinding" class="u-full-width" id="three-d"/>
+    </div>
+
+  </div>
+
+  <div class="vl"></div>
+
+
+
+</body>
+
+
+<script src="https://use.typekit.net/ehh4lya.js"></script>
+<script>
+  try {
+    Typekit.load({
+      async: true
+    });
+  } catch (e) {}
+</script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel") ||
+        $(event.target).is(".cd-panel-close")
+      ) {
+        $(".cd-panel").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn2").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel2").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel2").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel2") ||
+        $(event.target).is(".cd-panel-close2")
+      ) {
+        $(".cd-panel2").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn3").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel3").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel3").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel3") ||
+        $(event.target).is(".cd-panel-close3")
+      ) {
+        $(".cd-panel3").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+</script>
+
+
+</html>

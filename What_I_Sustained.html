@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Elizabeth</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT ––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="works.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+  <div class="twelve columns">
+    <div class="name">
+      <a href="#">Elizabeth Nguyen</a>
+    </div>
+    <div class="topnav">
+      <a href="mailto:elizabethnguyen02@gmail.com">EMAIL</a>
+      <a href="https://www.linkedin.com/in/elizabethtrucnguyen/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+      <a href="https://www.instagram.com/eliznng/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+    </div>
+    <section class="section section--hello" id="hello">
+      <div class="section__inner">
+        <div class="block">
+          <a class="pre" href="#hello"><span>fine arts major</span></a>
+          <a href="elizn.html"><h2 class="popout"><span>e</span><span>l</span><span>i</span><span>z</span><span>.</span><span>n</span></h2></a>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="vid">
+      <h6>what i sustained <span>procreate, blender, mozilla hubs 2021.</span></h6>
+
+      <p>A 3D environment consisting of interconnecting rooms, each being a representation of certain traumas in my childhood.
+        As a kid, I always wanted someone I could talk to about the things that were happening at home, but I would be in constant fear that no one would believe me and that I would get in trouble for it. So, I just internalized everything, which in turn, did more harm than good. However, I'm finally at a point in my life where I can confidently say that I'm pretty content with where I am today. I used to let my guilt stop me from going into this sort of subject, but now, I feel okay talking about it. </p>
+      <p>And so creating this piece was a way for me to finally acknowledge everything that happened and showing this piece publicly will be the first time I tell my story through my art. Viewers can continue moving down to every room and take their time looking at each scene. For some rooms, I did my best recreating them from memory, while still keeping that inner child-like perspective of each area. </p>
+      <p>This piece was showcased with my graduating class at our BFA show in 2021 called <i>Digital Autonomy</i>.</p>
+
+      <p id="btn"><button type="button" name="button"><a href="https://hubs.mozilla.com/E96Ura2/what-i-sustained">VIEW ENVIRONMENT</a></button></p>
+      <img src="assets/wis1.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis2.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis3.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis4.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis5.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis6.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis7.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis8.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis9.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis10.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+      <img src="assets/wis11.png" alt="what i sustained" class="u-full-width" id="three-d"/>
+    </div>
+
+  </div>
+
+  <div class="vl"></div>
+
+
+
+</body>
+
+
+<script src="https://use.typekit.net/ehh4lya.js"></script>
+<script>
+  try {
+    Typekit.load({
+      async: true
+    });
+  } catch (e) {}
+</script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel") ||
+        $(event.target).is(".cd-panel-close")
+      ) {
+        $(".cd-panel").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn2").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel2").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel2").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel2") ||
+        $(event.target).is(".cd-panel-close2")
+      ) {
+        $(".cd-panel2").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn3").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel3").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel3").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel3") ||
+        $(event.target).is(".cd-panel-close3")
+      ) {
+        $(".cd-panel3").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+</script>
+
+
+</html>
