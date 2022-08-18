@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Elizabeth</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT ––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="works.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+  <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+  <div class="twelve columns">
+    <div class="name">
+      <a href="#">Elizabeth Nguyen</a>
+    </div>
+    <div class="topnav">
+      <a href="mailto:elizabethnguyen02@gmail.com">EMAIL</a>
+      <a href="https://www.linkedin.com/in/elizabethtrucnguyen/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
+      <a href="https://www.instagram.com/eliznng/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+    </div>
+    <section class="section section--hello" id="hello">
+      <div class="section__inner">
+        <div class="block">
+          <a class="pre" href="#hello"><span>fine arts major</span></a>
+          <a href="elizn.html"><h2 class="popout"><span>e</span><span>l</span><span>i</span><span>z</span><span>.</span><span>n</span></h2></a>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="vid">
+      <h6>Artifact: <span>Fusion 360, Cura LulzBot, Premiere Pro, 1 min 53 sec, 2021.</span></h6>
+      <p>A fun idea on a speculative world where dinosaurs could exist among us. An artifact was modeled in Fusion 360 and printed with the standard white PLA filament using the Cura LulzBot software. </p>
+      <p>About sixty-five million years ago, at the end of the Cretaceous Period, Earth saw one of the most dramatic mass extinctions in history, an event that ended the age of dinosaurs, leaving cracks in the ecosystem. Eventually, these were filled by birds and mammals, both of which went on to evolve rapidly. However, what sort of world would dinosaurs live in if they never went extinct? How would they co-exist with humans in today's world? Considering how wolves, wildcats, and birds evolved and became domesticated, it's interesting to think that dinosaurs could have fallen in the same boat.</p>
+      <p>What if we lived in a world where Pterosaurs existed among us only to become domesticated? Our ancestors had learned to tame these creatures and by the 40's owning a pet Pterosaur became all the rage. That is until the late 60's where these reptiles suddenly grew agitated with their domesticated life and broke loose, wreaking havoc among society. President Nixon placed an executive order to purge all Pterosaurs.</p>
+
+      <p>Below are some sketches interpreting domesticated dinosaurs and the soon-to-be 3D printed artifact:</p>
+
+      <img src="assets/sketch1.jpg" alt="first sketch" id="three-d" width="400"/>
+      <img src="assets/sketch2.jpg" alt="second sketch" id="three-d" width="250"/>
+
+      <p>Here are some progress photos the 3D model in Fusion right before the print:</p>
+
+      <img src="assets/artifactfusion.png" alt="prog" class="u-full-width" id="three-d"/>
+      <img src="assets/artifact.png" alt="prog" class="u-full-width" id="three-d"/>
+      <img src="assets/artifact2.png" alt="prog" class="u-full-width" id="three-d"/>
+
+      <p>Progress after the 3D printing:</p>
+      <img src="assets/artifactprint2.jpg" alt="prog" id="three-d" width="400"/>
+      <img src="assets/artifactprint1.jpg" alt="prog" id="three-d" width="400"/>
+      <img src="assets/artifactprint3.jpg" alt="prog" id="three-d" width="400"/>
+      <img src="assets/artifactprint4.jpg" alt="prog" id="three-d" width="400"/>
+      <img src="assets/artifactprint5.jpg" alt="prog" id="three-d" width="400"/>
+      <img src="assets/artifactprint6.jpg" alt="prog" id="three-d" width="400"/>
+      <img src="assets/artifactprint7.jpg" alt="prog" id="three-d" width="600"/>
+      <img src="assets/artifactprint8.png" alt="prog" id="three-d" width="600"/>
+
+      <p>And finally, a "documentary" of the artifact...:</p>
+
+      <video width="700" controls>
+        <source src="assets/artifactdoc.mp4" type="video/mp4">
+        <source src="assets/artifactdoc.webm" type="video/webm">
+      </video>
+    </div>
+
+  </div>
+
+  <div class="vl"></div>
+
+
+
+</body>
+
+
+<script src="https://use.typekit.net/ehh4lya.js"></script>
+<script>
+  try {
+    Typekit.load({
+      async: true
+    });
+  } catch (e) {}
+</script>
+
+<script type="text/javascript">
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel") ||
+        $(event.target).is(".cd-panel-close")
+      ) {
+        $(".cd-panel").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn2").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel2").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel2").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel2") ||
+        $(event.target).is(".cd-panel-close2")
+      ) {
+        $(".cd-panel2").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+
+  jQuery(document).ready(function($) {
+    //open the lateral panel
+    $(".cd-btn3").on("click", function(event) {
+      event.preventDefault();
+      $(".cd-panel3").addClass("is-visible");
+    });
+    //close the lateral panel
+    $(".cd-panel3").on("click", function(event) {
+      if (
+        $(event.target).is(".cd-panel3") ||
+        $(event.target).is(".cd-panel-close3")
+      ) {
+        $(".cd-panel3").removeClass("is-visible");
+        event.preventDefault();
+      }
+    });
+  });
+</script>
+
+
+</html>
